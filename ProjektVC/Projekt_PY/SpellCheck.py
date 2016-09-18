@@ -13,14 +13,16 @@ words = []
 
 text_correct = "textc.txt"
 text_mistakes = "textm.txt"
-text_jaccard = "textj.txt"
+#text_jaccard = "textj.txt"
 
 with open('textc.txt', 'r') as myfile:
     data_correct=myfile.read().replace('\n', '')
 with open('textm.txt', 'r') as myfile:
     data_mistakes=myfile.read().replace('\n', '')
+'''
 with open('textj.txt', 'r') as myfile:
     data_nmatches=myfile.read().replace('\n', '')
+'''
     
 #Textdateien werden eingelesen
 
