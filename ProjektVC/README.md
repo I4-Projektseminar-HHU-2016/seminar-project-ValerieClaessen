@@ -35,8 +35,8 @@ pip import matplotlib
 ```
 
 
-### Installing
-
+### Starting
+python SpellChecker.py
 Start the Programm: SpellChecker.py
 Now you can chose your algorithms, compare them and edith the lexicon.
 
